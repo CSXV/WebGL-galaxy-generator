@@ -2,5 +2,6 @@
 
 ![screenshot](pics/screenshot.png)
 
-This is an experiment WebGL based galaxy generator made with Three.js.
-You can control variables using the control panel in the top right corner.
+Experiment WebGL based galaxy generator.
+Made with Three.js and custom GLSL shader.
+You can control variables using the control panel from the top right corner.
