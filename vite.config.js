@@ -1,9 +1,7 @@
+import { defineConfig } from "vite";
 import glsl from "vite-plugin-glsl";
 
-export default {
-  server: {
-    base: '/WebGL-galaxy-generator/',
-    host: true,
-  },
+export default defineConfig({
+  base: "/WebGL-galaxy-generator/",
   plugins: [glsl()],
-};
+});
